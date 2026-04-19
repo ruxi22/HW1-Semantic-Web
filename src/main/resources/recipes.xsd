@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="recipes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="recipe" type="RecipeType" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="RecipeType">
+    <xs:sequence>
+      <xs:element name="title" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Recipe title (required)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="image" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Path to recipe image (optional)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="cuisineTypes">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="cuisineType" type="CuisineTypeString" minOccurs="2" maxOccurs="2"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="difficultyLevels">
+        <xs:complexType>
+          <xs:sequence>
+             <xs:element name="difficultyLevel" type="DifficultyLevelString" minOccurs="1" maxOccurs="3"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>Unique recipe identifier (e.g., R001)</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:simpleType name="CuisineTypeString">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Italian"/>
+      <xs:enumeration value="Spanish"/>
+      <xs:enumeration value="Japanese"/>
+      <xs:enumeration value="Mexican"/>
+      <xs:enumeration value="Indian"/>
+      <xs:enumeration value="Greek"/>
+      <xs:enumeration value="Thai"/>
+      <xs:enumeration value="French"/>
+      <xs:enumeration value="Chinese"/>
+      <xs:enumeration value="Korean"/>
+      <xs:enumeration value="Vietnamese"/>
+      <xs:enumeration value="Turkish"/>
+      <xs:enumeration value="Brazilian"/>
+      <xs:enumeration value="Lebanese"/>
+      <xs:enumeration value="German"/>
+      <xs:enumeration value="Moroccan"/>
+      <xs:enumeration value="Peruvian"/>
+      <xs:enumeration value="American"/>
+      <xs:enumeration value="Asian"/>
+      <xs:enumeration value="Mediterranean"/>
+      <xs:enumeration value="European"/>
+      <xs:enumeration value="Latin American"/>
+      <xs:enumeration value="Street Food"/>
+      <xs:enumeration value="Vegetarian"/>
+      <xs:enumeration value="Tapas"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="DifficultyLevelString">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Beginner"/>
+      <xs:enumeration value="Intermediate"/>
+      <xs:enumeration value="Advanced"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>
+

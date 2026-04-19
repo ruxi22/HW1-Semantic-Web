@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="users.xsd">
+    <user>
+        <id>U001</id>
+        <name>Ruxandra</name>
+        <surname>Popa</surname>
+        <cookingSkillLevel>Intermediate</cookingSkillLevel>
+        <preferredCuisineType>Japanese</preferredCuisineType>
+    </user>
+    <user>
+        <id>U002</id>
+        <name>Ana</name>
+        <surname>Comeaga</surname>
+        <cookingSkillLevel>Beginner</cookingSkillLevel>
+        <preferredCuisineType>Italian</preferredCuisineType>
+    </user>
+    <user>
+        <id>U003</id>
+        <name>Maria</name>
+        <surname>Popescu</surname>
+        <cookingSkillLevel>Advanced</cookingSkillLevel>
+        <preferredCuisineType>French</preferredCuisineType>
+    </user>
+    <user>
+        <id>U004</id>
+        <name>Ion</name>
+        <surname>Luca</surname>
+        <cookingSkillLevel>Intermediate</cookingSkillLevel>
+        <preferredCuisineType>Asian</preferredCuisineType>
+    </user>
+</users>

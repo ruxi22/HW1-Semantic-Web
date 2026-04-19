@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="recipes.xsd">
+    <recipe id="R001">
+        <title>Creamy pumpkin pasta</title>
+        <image>/recipe-images/recipe_1.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Chinese</cuisineType>
+            <cuisineType>Japanese</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Beginner</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R002">
+        <title>Sausage, mustard &amp; apple hash</title>
+        <image>/recipe-images/recipe_2.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Italian</cuisineType>
+            <cuisineType>Thai</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Beginner</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R003">
+        <title>Mushroom stroganoff</title>
+        <image>/recipe-images/recipe_3.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Mediterranean</cuisineType>
+            <cuisineType>Brazilian</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Beginner</difficultyLevel>
+            <difficultyLevel>Intermediate</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R004">
+        <title>Beetroot &amp; feta pasta</title>
+        <image>/recipe-images/recipe_4.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Turkish</cuisineType>
+            <cuisineType>Indian</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Beginner</difficultyLevel>
+            <difficultyLevel>Intermediate</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+
+    <recipe id="R005">
+        <title>Pork &amp; apple burgers</title>
+        <image>/recipe-images/recipe_5.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Korean</cuisineType>
+            <cuisineType>Thai</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Intermediate</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R006">
+        <title>Mushroom soup</title>
+        <image>/recipe-images/recipe_6.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Italian</cuisineType>
+            <cuisineType>Vegetarian</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Intermediate</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+
+    <recipe id="R007">
+        <title>Squash &amp; halloumi flatbreads with sweet chilli beetroot jam</title>
+        <image>/recipe-images/recipe_7.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Latin American</cuisineType>
+            <cuisineType>French</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Intermediate</difficultyLevel>
+            <difficultyLevel>Advanced</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R008">
+        <title>Simple squash risotto</title>
+        <image>/recipe-images/recipe_8.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Mediterranean</cuisineType>
+            <cuisineType>Spanish</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Intermediate</difficultyLevel>
+            <difficultyLevel>Advanced</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R009">
+        <title>Slow cooker spiced root &amp; lentil casserole</title>
+        <image>/recipe-images/recipe_9.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Latin American</cuisineType>
+            <cuisineType>Italian</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Beginner</difficultyLevel>
+            <difficultyLevel>Intermediate</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+
+    <recipe id="R010">
+        <title>Squash &amp; spinach fusilli with pecans</title>
+        <image>/recipe-images/recipe_10.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Korean</cuisineType>
+            <cuisineType>Indian</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Advanced</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R011">
+        <title>Easy vegetable curry</title>
+        <image>/recipe-images/recipe_11.jpg</image>
+        <cuisineTypes>
+            <cuisineType>German</cuisineType>
+            <cuisineType>Tapas</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Beginner</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R012">
+        <title>Sausage &amp; butternut squash shells</title>
+        <image>/recipe-images/recipe_12.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Turkish</cuisineType>
+            <cuisineType>American</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Advanced</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R013">
+        <title>Autumn vegetable soup with cheesy toasts</title>
+        <image>/recipe-images/recipe_13.jpg</image>
+        <cuisineTypes>
+            <cuisineType>American</cuisineType>
+            <cuisineType>Mediterranean</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Beginner</difficultyLevel>
+            <difficultyLevel>Intermediate</difficultyLevel>
+            <difficultyLevel>Advanced</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R014">
+        <title>Mushroom &amp; sausage pasta</title>
+        <image>/recipe-images/recipe_14.jpg</image>
+        <cuisineTypes>
+            <cuisineType>American</cuisineType>
+            <cuisineType>Korean</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Beginner</difficultyLevel>
+            <difficultyLevel>Intermediate</difficultyLevel>
+            <difficultyLevel>Advanced</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R015">
+        <title>Creamy pumpkin &amp; lentil soup</title>
+        <image>/recipe-images/recipe_15.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Greek</cuisineType>
+            <cuisineType>Latin American</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Advanced</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R016">
+        <title>Curried parsnip soup</title>
+        <image>/recipe-images/recipe_16.jpg</image>
+        <cuisineTypes>
+            <cuisineType>European</cuisineType>
+            <cuisineType>Lebanese</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Intermediate</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R017">
+        <title>Red onion gravy</title>
+        <image>/recipe-images/recipe_17.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Italian</cuisineType>
+            <cuisineType>Indian</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Beginner</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R018">
+        <title>Butternut squash pilaf</title>
+        <image>/recipe-images/recipe_18.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Vietnamese</cuisineType>
+            <cuisineType>French</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Advanced</difficultyLevel>
+            <difficultyLevel>Advanced</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R019">
+        <title>Sausage &amp; maple swede traybake</title>
+        <image>/recipe-images/recipe_19.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Asian</cuisineType>
+            <cuisineType>Latin American</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Intermediate</difficultyLevel>
+            <difficultyLevel>Advanced</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+    <recipe id="R020">
+        <title>Cauliflower mac &amp; cheese</title>
+        <image>/recipe-images/recipe_20.jpg</image>
+        <cuisineTypes>
+            <cuisineType>Moroccan</cuisineType>
+            <cuisineType>Turkish</cuisineType>
+        </cuisineTypes>
+        <difficultyLevels>
+            <difficultyLevel>Beginner</difficultyLevel>
+            <difficultyLevel>Intermediate</difficultyLevel>
+        </difficultyLevels>
+    </recipe>
+</recipes>
+
