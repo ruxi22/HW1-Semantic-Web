@@ -55,7 +55,7 @@ Full-stack Java web application for recommending recipes based on cooking skill 
 - Endpoint: GET /api/recipes/by-skill?userId={id}
 
 ### Exercise 7: Recommend by Skill and Cuisine
-- XQuery filters recipes by both skill and cuisine preference
+- XPath filters recipes by both skill and cuisine preference
 - Provides personalized recommendations
 - Endpoint: GET /api/recipes/by-skill-and-cuisine?userId={id}
 
